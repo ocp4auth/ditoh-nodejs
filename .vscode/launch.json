@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "name": "Debug nodejs-project",
+            "request": "attach",
+            "address": "127.0.0.1",
+            "localRoot": "c:\\Users\\ditoh\\Documents\\Code\\mynodejsproject\\nodejs-project",
+            "remoteRoot": "/project/user-app",
+            "restart": true
+        },
+        {
+            "type": "node",
+            "name": "Debug my-nodejs-pj",
+            "request": "attach",
+            "address": "127.0.0.1",
+            "localRoot": "c:\\temp\\my-nodejs-pj\\my-nodejs-pj",
+            "remoteRoot": "/app",
+            "restart": true
+        },
+        {
+            "type": "node",
+            "name": "Debug ditoh-nodejs",
+            "request": "attach",
+            "address": "127.0.0.1",
+            "localRoot": "c:\\codewind-data\\ditoh-nodejs\\ditoh-nodejs",
+            "remoteRoot": "/project/user-app",
+            "restart": true
+        }
+    ]
+}
